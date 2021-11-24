@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Aleo', serif;
+}
 .fa-bookmark,.fa-envelope-open-text,.fa-square,.fa-linkedin-in,.fa-github,.fa-phone-alt{
     color: #F18250;
 }
+main{
+    height: 100vh;
+}
+.fontaccueil{
+    position: absolute;
+    background-image:url(../image/FondaccueilPortflio.png) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 40%;
+    width: 100%;
+}
+.fontaccueil h1{
+    position: absolute; 
+    width: 134px;
+    height: 45px;
+    top: 20%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.titre{
+    position: absolute; 
+width: 243px;
+height: 18px;
+top: 45%;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+}
+hr{ 
+    position: absolute; 
+    width: 158px;
+    height: 0px;
+    top: 50%;
+    background-color:  #FFFFFF;
+    border: 2px solid #FFFFFF;
+    }
+.petit-histoire{
+    position: absolute; 
+    width: 70%;
+font-style: normal;
+font-weight: normal;
+font-size: 50%;
+line-height: 190%;
+color: #FFFFFF;
+top: 70%;
+}
+.photo-professinnelle{
+  position: absolute;  
+width: 30%;
+height: 40%;
+top: 60%;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 768px) {
+
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ 
